@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll(".bottom a");
 const statusBox = document.getElementById("payment-status");
-const deliveryUrl = "https://drive.google.com/file/d/19PePjPutqqwsAXR1Vb7nBJJ6NcHJNfMx/view?usp=sharing";
+const deliveryUrl = "#";
 
 function showStatus(message, type = "info") {
     if (!statusBox) return;
